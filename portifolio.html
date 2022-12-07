@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfólio</title>
+    <link href="css/styleAtt.css" rel="stylesheet" />
+    <script type="text/javascript" src="script/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/94aa265d32.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="nav navbar">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="curriculo.html">Currículo</a></li>
+        <li><a href="#" class="active">Portfólio</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Jogos
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="maracaja_Pag.html">Maracajá</a>
+            <a href="ice_fishing_Pag.html">Ice Fishing</a>
+            <a href="dinoRunner_Pag.html">Dino Runner</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <div class="title">
+        <h1>Portfólio</h1>
+      </div>
+
+      <section class="portifolioShow">
+        <div class="backgroundPortfolio">
+          <div class="nomeArea">Jogos 2D</div>
+          <hr />
+          <div id="foto">
+            <div class="itemPortifolio">
+              <a
+                href="obrasPopUp/ice_fishing_PopUp.html"
+                target="_blank"
+                onclick="window.open(this.href,this.target,'width=1080,height=800');return false;"
+              >
+                <img src="img/ice_fishing.png" />
+                <div class="middle">
+                  <div class="text">
+                    Ice Fishing
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="itemPortifolio">
+              <a
+                href="obrasPopUp/maracaja_PopUp.html"
+                target="_blank"
+                onclick="window.open(this.href,this.target,'width=1080,height=800');return false;"
+              >
+                <img src="img/maracaja.PNG" />
+                <div class="middle">
+                  <div class="text">Maracajá</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="itemPortifolio">
+              <a
+                href="obrasPopUp/dino_PopUp.html"
+                target="_blank"
+                onclick="window.open(this.href,this.target,'width=1080,height=800');return false;"
+              >
+                <img src="img/dinoGame.jpeg" />
+                <div class="middle">
+                  <div class="text">
+                    Réplica do jogo Dino Runner para Mobile
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portifolioShow">
+        <div class="backgroundPortfolio">
+          <div class="nomeArea">Designs</div>
+          <hr />
+          <div id="foto">
+            <div class="itemPortifolio">
+              <button onclick="tbateAlert();">
+                <img src="img/tbate.jpeg" />
+                <div class="middle">
+                  <div class="text">
+                    Aplicativo de leitura e download de um mangá
+                  </div>
+                </div>
+              </button>
+            </div>
+
+            <div class="itemPortifolio">
+              <a
+                href="https://odisby.github.io/PinkFloydSite/"
+                target="_blank"
+                onclick="window.open(this.href,this.target);return false;"
+              >
+                <img src="img/pinkFloyd.jpeg" />
+                <div class="middle">
+                  <div class="text">
+                    Site para divulgação da banda Pink Floyd
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="itemPortifolio">
+              <a
+                href="https://odisby.github.io/site-curso-estacaohack/"
+                target="_blank"
+                onclick="window.open(this.href,this.target);return false;"
+              >
+                <img src="img/cellep.jpeg" />
+                <div class="middle">
+                  <div class="text">Proposta para o site da CelLep</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="push"></div>
+      </section>
+    </main>
+    <!-- <div class="push"></div> -->
+
+    <footer>
+      <div class="footer-copy">
+        <p>Todos os direitos resrvados</p>
+      </div>
+    </footer>
+  </body>
+</html>
